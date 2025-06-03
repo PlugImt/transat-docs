@@ -1,7 +1,7 @@
 ---
 hide:
-  - navigation
-  - toc
+    - navigation
+    - toc
 ---
 
 # Bienvenue sur la documentation de Transat !
@@ -9,16 +9,16 @@ hide:
 <div class="grid cards" markdown>
 
 -   :mobile_phone: &nbsp;
-    __L'application mobile__
+    **L'application mobile**
 
-    ---
+    ***
 
     [:octicons-arrow-right-24: plus d'informations](app/index.md)
 
 -   :material-server: &nbsp;
-    __Le backend__
+    **Le backend**
 
-    ---
+    ***
 
     [:octicons-arrow-right-24: plus d'informations](backend/index.md)
 
