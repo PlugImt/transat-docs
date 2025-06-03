@@ -2,7 +2,7 @@
 
 ## .env
 
-Récupérez le fichier `.env.example` et renommez-le `.env`. Ensuite, configurez les variables d'environnement. Remplacez `GOOGLE_TRANSLATE_API_KEY`, `OPENWEATHERMAP_API_KEY`, ainsi que toutes les variables liées aux mails (`EMAIL_`) par les clés API fournies sur le channel "#『🔐』resources-identifiants"
+Récupérez le fichier `.env.example` et renommez-le `.env`. Ensuite, configurez les variables d'environnement. Remplacez `GOOGLE_TRANSLATE_API_KEY`, `OPENWEATHERMAP_API_KEY`, ainsi que toutes les variables liées aux mails (`EMAIL_`) par les clés API fournies sur le channel "#『🔐』resources-identifiants", ou utilisez les vôtres.
 
 ## Base de donnée locale
 

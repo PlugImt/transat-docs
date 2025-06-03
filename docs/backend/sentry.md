@@ -10,3 +10,6 @@ Pour être ajouté à Sentry, demandez à un développeur sur Discord de vous y 
 
 La configuration de Sentry se fait dans le fichier `sentry.go`, dans le package `utils`.
 Sentry est désactivé en développement.
+
+## Logging
+Les logs sont envoyés à Sentry, via le logger d'`utils`.

@@ -10,3 +10,13 @@ theme:
     - navigation.sections.collapsible
     - navigation.sections.indent
     - navigation.sections.index
+copyright: Copyright © 2025 PlugImt, un club de l'IMT Atlantique à Nantes
+site_author: PlugImt
+site_description: Documentation pour Transat, un projet d'application pour les étudiants de l'IMT Atlantique du campus de Nantes
+repo_url: https://github.com/PlugImt/transat-docs
+validation:
+  strict: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/PlugImt
