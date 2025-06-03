@@ -1,0 +1,12 @@
+site_name: Transat Docs
+site_url: https://docs.transat.dev
+theme:
+  name: material
+  palette:
+    - dark
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.sections.collapsible
+    - navigation.sections.indent
+    - navigation.sections.index
