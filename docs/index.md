@@ -1,17 +1,26 @@
-# Welcome to MkDocs
+# Bienvenue sur la documentation de Transat !
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Vous pouvez retrouver les différentes documentations ici:
 
-## Commands
+- [Backend](backend/index.md)
+- [Application mobile](app/index.md)
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## Contribuer à la documentation
 
-## Project layout
+La document de Transat est écrite en Markdown, à l'aide Mkdoc avec le [thème Material](https://squidfunk.github.io/mkdocs-material/).
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Comment contribuer?
+
+```bash
+# créer un venv
+python3 -m venv .venv
+
+# activer le venv
+source .venv/bin/activate
+
+# installer les dépendances
+pip install -r requirements.txt
+
+# lancer le serveur de documentation
+mkdocs serve
+```
