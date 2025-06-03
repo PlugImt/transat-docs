@@ -1,9 +1,28 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Bienvenue sur la documentation de Transat !
 
-Vous pouvez retrouver les différentes documentations ici:
+<div class="grid cards" markdown>
 
-- [Backend](backend/index.md)
-- [Application mobile](app/index.md)
+-   :mobile_phone: &nbsp;
+    __L'application mobile__
+
+    ---
+
+    [:octicons-arrow-right-24: plus d'informations](app/index.md)
+
+-   :material-server: &nbsp;
+    __Le backend__
+
+    ---
+
+    [:octicons-arrow-right-24: plus d'informations](backend/index.md)
+
+</div>
 
 ## Contribuer à la documentation
 

@@ -2,21 +2,83 @@ site_name: Transat Docs
 site_url: https://docs.transat.dev
 theme:
   name: material
+  logo: assets/logo.png
+  language: fr
   palette:
-    - dark
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Passer en thème sombre
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Passer en thème clair
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.sections.collapsible
     - navigation.sections.indent
     - navigation.sections.index
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
 copyright: Copyright © 2025 PlugImt, un club de l'IMT Atlantique à Nantes
 site_author: PlugImt
 site_description: Documentation pour Transat, un projet d'application pour les étudiants de l'IMT Atlantique du campus de Nantes
 repo_url: https://github.com/PlugImt/transat-docs
-validation:
-  strict: true
+
 extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/PlugImt
+
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      normalize_issue_symbols: true
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
