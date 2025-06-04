@@ -1,8 +1,11 @@
 # Backend Transat
 
-Le backend est un projet Go, avec Fiber.
+Le backend Transat est l'unique partenaire de l'application Transat. Toutes les communications entre l'application et le reste du monde se font via le backend.
 
-- [Prérequis](./1-prerequis.md)
-- [Premier lancement](./2-premier-lancement.md)
-- [Migrations](./migrations.md)
-- [Sentry](./sentry.md)
+La stack technique est la suivante:
+
+- Framework: Fiber :fontawesome-brands-golang:
+- Base de données: PostgreSQL :simple-postgresql:
+- Authentification: JWT :simple-jsonwebtokens:
+- Logging: Sentry :simple-sentry:
+- CI/CD: GitHub Actions pour build :simple-githubactions:
