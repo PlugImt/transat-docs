@@ -3,6 +3,7 @@ site_url: https://docs.transat.dev
 theme:
   name: material
   logo: assets/logo.png
+  favicon: assets/favicon.png
   language: fr
   palette:
     - scheme: default
