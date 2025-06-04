@@ -1,4 +1,5 @@
 ---
+title: Accueil
 hide:
     - navigation
     - toc
@@ -9,19 +10,25 @@ hide:
 <div class="grid cards" markdown>
 
 -   :mobile_phone: &nbsp;
-    **L'application mobile**
+    **L'application mobile** &nbsp; :simple-expo:
 
     ***
 
     [:octicons-arrow-right-24: plus d'informations](app/index.md)
 
 -   :material-server: &nbsp;
-    **Le backend**
+    **Le backend** &nbsp; :fontawesome-brands-golang:
 
     ***
 
     [:octicons-arrow-right-24: plus d'informations](backend/index.md)
 
+-   :octicons-code-24: &nbsp;
+    **Commun entre l'application et le backend**
+
+    ***
+
+    [:octicons-arrow-right-24: :simple-sentry: Sentry ](commun/sentry.md)
 </div>
 
 ## Contribuer à la documentation
