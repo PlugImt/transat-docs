@@ -24,6 +24,7 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
+    - content.tabs.link
 copyright: Copyright © 2025 PlugImt, un club de l'IMT Atlantique à Nantes
 site_author: PlugImt
 site_description: Documentation pour Transat, un projet d'application pour les étudiants de l'IMT Atlantique du campus de Nantes
