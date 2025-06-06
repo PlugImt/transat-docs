@@ -1,4 +1,6 @@
-# Première configuration de l'environnement
+# Configuration de l'environnement et premier lancement
+
+*Avez vous suivi le [guide de configuration d'un poste de développement pour Transat ?](../commun/poste.md)*
 
 ## .env
 
@@ -6,7 +8,10 @@ Récupérez le fichier `.env.example` et renommez-le `.env`.
 
 !!! question "Qu'est-ce qu'un fichier `.env`?"
 
-    Un fichier `.env` est un qui contient des variables d'environnement, une par ligne. Dans l'application, ce fichier est chargé par Expo. Il contient l'URL de l'API.
+    Un fichier `.env` est un fichier qui contient des variables d'environnement (1), une par ligne. Dans l'application, ce fichier est chargé par Expo. Il contient l'URL de l'API.
+    { .annotate }
+
+    1.  Une variable d'environnement est une variable qui est définie dans l'environnement d'exécution du processus. Elle est accessible dans le processus via l'objet `process.env`. Voir [Wikipedia](<https://fr.wikipedia.org/wiki/Variable_d'environnement>){target="_blank"} pour plus d'informations.
 
 ## Installer les dépendances
 
