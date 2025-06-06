@@ -47,7 +47,7 @@ Les migrations sont exécutées automatiquement au démarrage de l'application.
 
     Adaptez les paramètres de la commande à votre configuration:
     ```bash
-    goose -dir db/migrations postgres "host=localhost port=5432 user=postgres password=postgres dbname=postgres sslmode=disable" up
+    goose -dir db/migrations postgres "postgres://postgres:password@host:port/transat" up
     ```
 
 !!! question "Est-ce que je peux modifier une migration existante?"
