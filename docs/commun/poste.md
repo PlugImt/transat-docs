@@ -1,4 +1,4 @@
-# Configuration du poste de développement pour Transat
+# Commencer à développer sur Transat
 
 L'application Transat est en deux parties, le [backend](../backend/index.md) en Go et le [mobile](../app/index.md) en React Native. Vous pouvez donc sauter directement à la section qui vous intéresse, si vous ne souhaitez pas développer sur l'intégralité de l'application.
 

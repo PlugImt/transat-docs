@@ -29,6 +29,8 @@ hide:
     ***
 
     [:octicons-arrow-right-24: :simple-sentry: Sentry ](commun/sentry.md)
+
+    [:octicons-arrow-right-24: Commencer à développer sur Transat](commun/poste.md)
 </div>
 
 ## Contribuer à la documentation
