@@ -12,31 +12,59 @@ Votre fichier `.env` devrait ressembler à cela:
 
     ```env
     # Configuration de la base de données
-    DB_USER=transat
-    DB_PASS=transat
-    DB_HOST=localhost
-    DB_PORT=5432
-    DB_NAME=transat
-
-    DATABASE_URL=postgres://transat:transat@localhost:5432/transat
-    PORT=3000
-
+    DB_NAME=
+    DB_USER=
+    DB_PASS=
+    DB_HOST=
+    DB_PORT=
+    
     # Sécurité
-    JWT_SECRET=super-secret-key
-
-    GOOGLE_TRANSLATE_API_KEY=abc123
-
-    OPENWEATHERMAP_API_KEY=abc123
-
+    JWT_SECRET=
+    
+    GOOGLE_TRANSLATE_API_KEY=
+    
+    OPENWEATHERMAP_API_KEY=
+    
     # Configuration Email
-    EMAIL_SENDER=transat@transat.dev
-    EMAIL_HOST=transat.dev
-    EMAIL_PORT=465
-    EMAIL_PASSWORD=transat
-
-    ENV=development
-
-    DATA_FOLDER=./data
+    EMAIL_PASSWORD=
+    
+    # ——— Email (Primary: Brevo HTTP API) ———
+    # Required: Brevo API key (not SMTP password)
+    BREVO_API_KEY=
+    
+    # Shared sender identity used by Brevo and as default for SMTP1
+    EMAIL_SENDER=
+    EMAIL_SENDER_NAME=
+    
+    # ——— SMTP Fallback 1 (Gmail or other SMTP) ———
+    EMAIL_HOST_GMAIL_1=
+    EMAIL_PORT_GMAIL_1=
+    EMAIL_PASSWORD_GMAIL_1=
+    EMAIL_SENDER_GMAIL_1=
+    EMAIL_SENDER_NAME_GMAIL_1=
+    
+    # ——— SMTP Fallback 2 (Second Gmail/SMTP account) ———
+    EMAIL_HOST_GMAIL_2=
+    EMAIL_PORT_GMAIL_2=
+    EMAIL_PASSWORD_GMAIL_2=
+    EMAIL_SENDER_GMAIL_2=
+    EMAIL_SENDER_NAME_GMAIL_2=
+    
+    # ——— Discord Webhooks ———
+    # Existing Discord service webhook (if you already use it elsewhere)
+    DISCORD_WEBHOOK_URL=
+    
+    # Dedicated webhook for email failure alerts (required; no defaults in code)
+    DISCORD_EMAIL_ALERT_WEBHOOK=
+    
+    ALLOWED_ORIGINS=*
+    
+    # R2 Storage
+    R2_ACCESS_KEY_ID=
+    R2_ACCESS_KEY_SECRET=
+    R2_ACCOUNT_ID=
+    R2_BUCKET_NAME=
+    R2_PUBLIC_DOMAIN=
     ```
 
 ## Base de donnée locale
